@@ -2,7 +2,7 @@ var path = require('path');
 var friends = require('../data/friends.js');
 
 module.exports = function(app) {
-    console.log('__ENTER apiRoutes.js__');
+    // console.log('__ENTER apiRoutes.js__');
 
     app.get('/api/friends', function(req, res) {
         res.json(friends);
@@ -43,6 +43,6 @@ module.exports = function(app) {
 
         friends.push(userInput);
         res.json({status: 'OK', matchName: matchName, matchImage: matchImage});
-        
+
     });
 };
