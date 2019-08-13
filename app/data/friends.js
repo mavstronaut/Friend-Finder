@@ -1,7 +1,7 @@
 var friendsArray = [
 	{
         name: 'Rick',
-		photo: '../data/imgs/rick.jpg', // img src=https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/UP0151-CUSA09971_00-AV00000000000001/1553247430000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000
+		photo: 'https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/UP0151-CUSA09971_00-AV00000000000001/1553247430000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000', // img src=
 		scores: [
 			'5',
 			'3',
@@ -17,7 +17,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Morty',
-		photo: '../data/imgs/morty.jpg', // img src=https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/UP0151-CUSA09971_00-AV00000000000002/1553247440000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000
+		photo: 'https://store.playstation.com/store/api/chihiro/00_09_000/container/US/en/999/UP0151-CUSA09971_00-AV00000000000002/1553247440000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000', // img src=
 		scores: [
 			'3',
 			'4',
