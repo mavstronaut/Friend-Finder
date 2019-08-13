@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Friend Finder Survey</title>
+        <script src="https://kit.fontawesome.com/0a4035d3a2.js"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="nav-wrapper green accent-2">
+                    <i class="fa fa-address-book-o fa-5x" aria-hidden="true" id="logo-icon"></i>
+                    <a href="/" class="brand-logo" id="logo">Friend Finder</a>
+                    <ul class="right hide-on-med-and-down" id="head-nav-links">
+                        <li><a href="/survey">Survey</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 z-depth-5 mainpanel">
+                        <div id="mainpanel-content">
+                            <h1>Survey Questions</h1>
+                            <div class="divider"></div>
+                            <h3>Tell us about yourself</h3>
+
+                            <div class="input-field col s6">
+                                <h5>Name*</h5>
+                                <i class="material-icons prefix">account_circle</i>
+                                <input type="text" class="validate" placeholder="Enter name here" id="userName">
+                            </div>
+
+                            <div class="input-field col s6">
+                                <h5>Link to photo image*</h5>
+                                <i class="material-icons prefix">picture_in_picture</i>
+                                <input type="text" class="validate" placeholder="Image URL" id="userPhoto">
+                            </div>
+
+                            <div class="input-field col s12">
+                                <h3>Question 1</h3>
+                                <h5>Would you prefer crowds (5), small groups (3) or time alone (1)?</h5>
+                                <select id="question1">
+                                    <option value="" disabled selected>Choose your option:</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 2</h3>
+                                    <h5>When you're working on a group project would you be a leader(5) or follower(1)?</h5>
+                                    <select id="question2">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 3</h3>
+                                    <h5>When facing a conflict, do you prefer confrontation(5) or ignoring it(1)?</h5>
+                                    <select id="question3">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 4</h3>
+                                    <h5>When problem solving, do you ask questions(5) or wait for instruction(1)?</h5>
+                                    <select id="question4">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 5</h3>
+                                    <h5>How often do you make time to read? Often(5) or none at all (1)</h5>
+                                    <select id="question5">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 6</h3>
+                                    <h5>When you drive in the car, are you more likely to listen to music(5), talk radio(3) or nothing at all(1)?</h5>
+                                    <select id="question6">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 7</h3>
+                                    <h5>Would you rather be a planner(5) or builder(1)?</h5>
+                                    <select id="question7">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <div class="input-field col s12">
+                                    <h3>Question 8</h3>
+                                    <h5>If no one is watching you, are you more likely to work(5) or enjoy recreational activity(1)?</h5>
+                                    <select id="question8">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+                            
+                            <div class="input-field col s12">
+                                    <h3>Question 10</h3>
+                                    <h5>When facing a difficult problem, do you ask others for help(5) or focus on your own(1)?</h5>
+                                    <select id="question10">
+                                        <option value="" disabled selected>Choose your option:</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                            </div>
+
+                            <!-- submit -->
+                            <div>
+                                <button class="btn waves-effect waves-light" type="submit" name="action" id="submitButton">
+                                    Submit responses
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="page-footer green accent-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col 16 s12">
+                        <h5 class="white-text">Friend Finder App</h5>
+                        <p class="grey-text text-lighten-4">Thank you for taking the survey. Your responses will be used only for educational purposes</p>
+                    </div>
+                    <div class="col 14 offset-12 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="/api/friends">API Friends List</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/mavstronaut/Friend-Finder">Github Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- modal -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Closest Friend Match</h4>
+                <div class="divider"></div>
+                <h5 id="userMatch"></h5>
+                <img id="userMatchImage" class="materialboxed" width="650" src="">
+            </div>
+            <div class="modal-footer">
+                <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Try again</a>
+            </div>
+        </div>
+
+        <script src="js/action.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    </body>
+</html>
