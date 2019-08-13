@@ -21,9 +21,28 @@ module.exports = function(app) {
         var totalDifference = 10000; // initial value for comparison
         // loop over existing data
         for (var i = 0; i < friends.length; i++) {
+             var diff = 0;
+             console.log('friend = ' + JSON.stringify(friends[i]));
 
+            for (var j = 0; j < userResponses.length; j++) {
+                diff += Math.abs(friends[i].scores[j] - userResponses[j]);
+            }
+             console.log('diff = ' + diff);
+
+             if (diff < totalDifference) {
+                 console.log('closest match found = ' + diff);
+                 console.log('friend name = ' + friends[i].name);
+                 console.log('friend image = ' + friends[i].photo);
+
+                 totalDifference = diff;
+                 matchName = friends[i].name;
+                 matchImage = friends[i].photo;
+             };
+            
         };
+
+        friends.push(userInput);
+        res.json({status: 'OK', matchName: matchName, matchImage: matchImage});
         
     });
-
 };
