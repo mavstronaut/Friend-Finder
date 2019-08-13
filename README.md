@@ -7,4 +7,4 @@ From the terminal
 2. then set the port by typing `export PORT 3000`
 
 ## Demo
-View live on Heroku: https://friend-finder-mavstronaut.herokuapp.com/
+View [live on Heroku](https://friend-finder-mavstronaut.herokuapp.com/)
