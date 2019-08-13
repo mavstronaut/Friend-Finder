@@ -1,6 +1,6 @@
 body {
     width: 80%;
-    margin: auto;
+    margin: 0px auto;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -8,6 +8,11 @@ body {
 
 header {
     height: 100px;
+    display: inline-block;
+}
+
+footer {
+    display: inline-block;
 }
 
 header > nav {
@@ -16,6 +21,7 @@ header > nav {
 
 main {
     flex: 1 0 auto;
+    display: inline-block;
 }
 
 main h1 {
