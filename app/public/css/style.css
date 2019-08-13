@@ -26,3 +26,26 @@ main h2 {
     font-weight: 300;
 }
 
+.mainpanel {
+    margin: 50px;
+}
+
+#mainpanel-content {
+    margin: 50px;
+}
+
+#logo-icon {
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+#logo {
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+#head-nav-links {
+    margin-right: 42px;
+    margin-top: 20px;
+}
+
